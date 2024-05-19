@@ -5,14 +5,9 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-p.body {
-    font-size: 16pt;
-    padding: 12px 0;
-}
-
 li {
     font-size: 16pt;
-    margin-left: 60px;
+    margin-left: 10px;
 }
 
 a {
@@ -34,7 +29,7 @@ a {
 .menu {
     background-color: #003b6d;
     height: 60px;
-    padding: 6px;;
+    padding: 6px;
     position: fixed;
 }
 
@@ -75,26 +70,18 @@ h1 {
 
 h2 {
     font-family: Candara,'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva;
-    font-size: 38pt;
 }
 
 h3 {
     font-family: Candara;
-    font-size: 24pt;
     text-decoration: underline;
-}
-
-.picture-left {
-    float:left;
-    margin: 0 20px;
-    width: 250px;
 }
 
 .contactForm {
     max-width: 600px;
     margin: 20px auto;
     padding: 20px 20px;
-    border-style:ridge;
+    border-style: ridge;
 }
 
 label {
@@ -112,30 +99,35 @@ select {
     margin-bottom: 15px;
 }
 
-.picture-right {
-    float:right;
-    margin: 0 20px;
-    width: 250px;
+.currentPageDeco {
+    text-decoration: underline overline white;
 }
 
 /* Mobile Styles */
 @media only screen and (max-width: 500px) {
     body {
-        background-color: #f09a9d;
+        background-color: white;
     }
     h1 {
-        font-size: 40pt;
-        
+        font-size: 28pt;
     }
-    ul {
-        display: flex;
-        width: 450px;
-        justify-content: space-between;
+    h2 {
+        font-size: 22pt;
+    }
+    h3 {
+        font-size: 18pt;
+    }
+    p.body {
+        font-size: 14pt;
+        padding: 12px 0;
     }
     .navLink {
         color: white;
         font-size: 16pt;
         display: block;
+    }
+    .searchbar {
+        display: none;
     }
     ul.navLink {
         display: flex;
@@ -149,28 +141,39 @@ select {
         padding: 0 0;
     }
     .picture-left {
-        width: 100%;
-        margin: 0 0;
-        padding: 0 0;
-        
+        display: none;
     }
     .picture-right {
-        width: 100%;
-        margin: 0 0;
-        padding: 0 0;
+        display: none;
     }
     .section {
         display: block;
+    }
+    .headerLogo
+    {
+        float:left;
+        margin: 0 20px;
+        width: 100px;    
     }
 }
 
 /* Tablet Styles */
 @media only screen and (min-width: 501px) and (max-width: 960px) {
     body {
-        background-color: #f5cf8e;
+        background-color: white;
     }
     h1 {
-        font-size: 40pt;
+        font-size: 34pt;
+    }
+    h2 {
+        font-size: 28pt;
+    }
+    h3 {
+        font-size: 24pt;
+    }
+    p.body {
+        font-size: 14pt;
+        padding: 12px ;
     }
     .navLink {
         color: white;
@@ -187,6 +190,34 @@ select {
     li.navLink {
         margin: 0 0;
         padding: 0 0;
+    }
+    .content1 {
+        width: 0;
+    }
+    .searchbar {
+        display: none;
+    }
+    .content2 {
+        width: 100%;
+    }
+    .content3 {
+        width: 0;
+    }
+    .headerLogo
+    {
+        float:left;
+        margin: 0 20px;
+        width: 175px;    
+    }
+    .picture-left {
+        float:left;
+        margin: 0 20px;
+        width: 250px;
+    }
+    .picture-right {
+        float:right;
+        margin: 0 20px;
+        width: 250px;
     }
     
 }
@@ -203,17 +234,26 @@ select {
     .header {
         height: 350px;
     }
-    .content {
-        order: 2;
-    }
+    
     h1 {
         font-size: 64pt;
         text-shadow: 5px 5px 5px grey;
     }
+    h2 {
+        font-size: 38pt;
+    }
+    h3 {
+        font-size: 32pt;
+    }
+    p.body {
+        font-size: 16pt;
+        padding: 12px 0;
+    }
     .navLink {
         color: white;
-        font-size: 24pt;
+        font-size: 18pt;
         display: block;
+        
     }
     ul.navLink {
         display: flex;
@@ -221,6 +261,9 @@ select {
         padding: 6px 0;
         height: 60px;
         width: 100%;
+    }
+    .searchbar {
+        
     }
     .content1 {
         background-color: white;
@@ -236,4 +279,21 @@ select {
         background-color: white;
         width: 10%;
     }
+    .headerLogo
+    {
+        float:left;
+        margin: 0 20px;
+        width: 250px;    
+    }
+    .picture-left {
+        float:left;
+        margin: 0 20px;
+        width: 250px;
+    }
+    .picture-right {
+        float:right;
+        margin: 0 20px;
+        width: 250px;
+    }
+    
 }
