@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" name="viewport" content="width=device-width", initial-scale="1.0", maximum-scale="1.0">
+    <title>Responsive Design</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+    <div class='page'>
+      <div class='section menu'>
+        <ul class="navLink">
+          <li class="navLink"><a class="navLink" href="main.html">Home</a></li>
+          <li class="navLink"><a class="navLink" href="cats.html">Cats</a></li>
+          <li class="navLink"><a class="navLink" href="dogs.html">Dogs</a></li>
+          <li class="navLink"><a class="navLink" href="fish.html">Fish</a></li>
+          <li class="navLink"><a class="navLink" href="contact.html">Contact us</a></li>
+          <li class="navLink"><a class="navLink" href="somthing.html"><img src="images/Account Icon.png" /></a></li>
+        </ul>
+        </div>
+        <div class='section header'>
+          
+          <img src='images/logo1.png' class="picture-left"/>
+          <h1>paradigm pet professionals</h1>
+        </div>
+        <div class='content1'></div>
+        <div class="content2">
+          <div class="contactForm">
+          <h2>Request a pexpert consultation</h2>
+          <hr style="margin: 20px 0;">
+          <p class="body">Please fill out the form to be contacted by a pexpert</p>
+          <form action="https://www.w3schools.com/action_page.php">
+            <label for="fullName">Full name:</label><br>
+            <input type="text" id="fullName" name="fullName" required><br>
+            <label for="phoneNumber">Phone Number</label><br>
+            <input type="tel" id="phoneNumber" name="phoneNumber" required><br>
+            <label for="emailAddress">E-mail address</label><br>
+            <input type="email" id="emailAddress" name="emailAddress" required><br>
+            <label for="timeZone">Time Zone</label><br>
+            <select name="timeZone" id="timeZone" required>
+                <option value="EST">EST Eastern Time</option>
+                <option value="CST">CST Central Standard Time</option>
+                <option value="MST">MST Mountain Standard Time</option>
+                <option value="PST">PST Pacific Standard Time</option>
+            </select>
+            <br>
+            <label for="petsName">Pet's Name</label><br>
+            <input type="text" id="petsName" name="petsName"><br>
+            <label for="petType">Pet type (Cat, dog, etc):</label><br>
+            <input type="text" id="petType" name="petType"><br>
+            <label for="petsAge">Age of pet</label><br>
+            <input type="number" min="0" max="400" step="1" id="petsAge" name="petsAge"><br>
+            <input type="submit" value="Submit" style="width: 160px; display: block; margin: 0 auto;">
+
+          </form>
+        </div>
+        </div>
+        <div class="content3"></div>
+        <div class="footer">
+        <p style="justify-self: center;"><img src="images/logo-2.png" style="width: 125px; margin-right: 100px;"></p>
+        </div>
+    </body>
+</html>

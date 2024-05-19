@@ -2,22 +2,20 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 p.body {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 16pt;
     padding: 12px 0;
 }
 
 li {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 16pt;
     margin-left: 60px;
 }
 
 a {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 16pt;
 }
 
@@ -72,11 +70,11 @@ a.navLink:hover {
 }
 
 h1 {
-    font-family: Candara;
+    font-family: Candara,'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva;
 }
 
 h2 {
-    font-family: Candara;
+    font-family: Candara,'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva;
     font-size: 38pt;
 }
 
@@ -90,6 +88,28 @@ h3 {
     float:left;
     margin: 0 20px;
     width: 250px;
+}
+
+.contactForm {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px 20px;
+    border-style:ridge;
+}
+
+label {
+    font-size: 16pt;
+}
+
+input {
+    
+    font-size: 16pt;
+    margin-bottom: 15px;
+}
+
+select {
+    font-size: 16pt;
+    margin-bottom: 15px;
 }
 
 .picture-right {
