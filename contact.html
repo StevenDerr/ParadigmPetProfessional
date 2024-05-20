@@ -3,6 +3,8 @@
   <head>
     <meta charset="utf-8" name="viewport" content="width=device-width", initial-scale="1.0", maximum-scale="1.0">
     <title>Paradigm Pet Professionals</title>
+    <meta name="description" content="pet owner consultation, pet ownners, new pet, pet care">
+    <meta name="keywords" content="new pet consultation, new pet care consultation">
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" type="image/x-icon" href="images/ppp.ico">
  </head>
@@ -16,14 +18,18 @@
         <li class="navLink"><a class="navLink" href="dogs.html">Dogs</a></li>
         <li class="navLink"><a class="navLink" href="fish.html">Fish</a></li>
         <li class="navLink currentPageDeco"><a class="navLink" href="contact.html">Contact us</a></li>
-        <li class="navLink searchbar"><form action="https://www.w3schools.com/action_page.php"><input type="search" name="gsearch" id="gsearch"></form></li>
-        <li class="navLink"><a class="navLink" href="somthing.html"><img src="images/Account Icon.png" /></a></li>
+        <li class="navLink searchbar"><form action="https://www.w3schools.com/action_page.php"><label for="gsearch" style="display: none;">Google search</label><input type="search" name="gsearch" id="gsearch"></form></li>
+        <li class="navLink"><a class="navLink" href="somthing.html"><img src="images/Account Icon.png" alt="User prefrences"/></a></li>
       </ul>
-      </div>
-      <div class='section header'>
-        <img src='images/logo1.png' class="headerLogo"/>
-        <h1>paradigm pet professionals</h1>
-      </div>
+    </div>
+      <div class="section" style="background-color: #bdbdbd;">
+        <div class='header'>
+          <img src='images/logo1.png' class="headerLogo" alt="Paradigm Pet Professionals logo"/>
+          <h1>paradigm pet professionals</h1>
+          <br>
+          <h4>Evidence-based pet care advice for every pet lover</h4>
+        </div>
+        </div>
 
       <!-- Body -->
 
@@ -54,6 +60,7 @@
             <input type="text" id="petType" name="petType"><br>
             <label for="petsAge">Age of pet</label><br>
             <input type="number" min="0" max="400" step="1" id="petsAge" name="petsAge"><br>
+            <label for="Submit" style="display: none;"></label>
             <input type="submit" value="Submit" style="width: 160px; display: block; margin: 0 auto;">
 
           </form>
@@ -61,7 +68,7 @@
         </div>
         <div class="content3"></div>
         <div class="footer">
-        <p style="justify-self: center;"><img src="images/logo-2.png" style="width: 125px; margin-right: 100px;"></p>
+          <p style="justify-self: center;"><img src="images/logo-2.png" style="width: 125px; margin-right: 100px;" alt="Paradigm Pet Professionals small logo"></p>
         </div>
     </body>
 </html>

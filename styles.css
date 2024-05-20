@@ -34,10 +34,14 @@ a {
 }
 
 .header {
-    align-items: center;
     background-color: #bdbdbd;
+    display: block;
+    align-items: center;
     padding-top: 60px;
-    
+}
+
+h4 {
+    font-style: italic;
 }
 
 a.navLink:link {
@@ -136,6 +140,13 @@ select {
         height: 60px;
         width: 100%;
     }
+    li {
+        font-size: 14pt;
+    }
+    a {
+        font-size: 14pt;
+        
+    }
     li.navLink {
         margin: 0 0;
         padding: 0 0;
@@ -155,6 +166,12 @@ select {
         margin: 0 20px;
         width: 100px;    
     }
+    .header {
+        width: 100%;
+    }
+    h4 {
+        font-size: 10pt;
+    }
 }
 
 /* Tablet Styles */
@@ -169,7 +186,8 @@ select {
         font-size: 28pt;
     }
     h3 {
-        font-size: 24pt;
+        font-size: 20pt;
+        margin-left: 20px;
     }
     p.body {
         font-size: 14pt;
@@ -187,9 +205,17 @@ select {
         height: 60px;
         width: 100%;
     }
+    li {
+        font-size: 14pt;
+        margin-left: 50px;
+    }
+    a {
+        font-size: 14pt;
+    }
     li.navLink {
         margin: 0 0;
         padding: 0 0;
+
     }
     .content1 {
         width: 0;
@@ -202,6 +228,9 @@ select {
     }
     .content3 {
         width: 0;
+    }
+    .header {
+        width: 100%;
     }
     .headerLogo
     {
@@ -262,9 +291,7 @@ select {
         height: 60px;
         width: 100%;
     }
-    .searchbar {
-        
-    }
+    
     .content1 {
         background-color: white;
         width: 10%;
@@ -278,6 +305,9 @@ select {
     .content3{
         background-color: white;
         width: 10%;
+    }
+    .header {
+        width: 80%;
     }
     .headerLogo
     {
